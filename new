@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vihaan's Personal Website">
+    <title>Vihaan's World</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        #about {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #fff;
+            padding: 50px;
+        }
+        #about img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        #about div {
+            max-width: 600px;
+        }
+        #about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 50px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 2rem;
+            color: #4CAF50;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            font-size: 1.2rem;
+            padding: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Vihaan's World</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#roles">Roles</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <img src="your_image.jpg" alt="Vihaan's Image">
+    <div>
+        <h2>About Me</h2>
+        <p>Hi! I'm Vihaan, a passionate student deeply involved in technology, leadership, and public speaking. I work across various fields like AI, robotics, and business strategy. I'm here to share my journey and achievements with the world!</p>
+    </div>
+</section>
+
+<section id="roles" class="section">
+    <h2>Roles</h2>
+    <ul>
+        <li>President of the Science Olympiad Club at Juanita High School</li>
+        <li>Co-Founder and President of VK Tutors</li>
+        <li>Secretary and Web Developer of Letter to My Heritage</li>
+        <li>Intern at Kolly AI</li>
+        <li>Instructor at iCode Bellevue</li>
+        <li>Flex Staffer for Specialized Committees, SeattleMUN 2025</li>
+        <li>Lead Programmer at Robotic Phoenixes</li>
+        <li>Member of the Technology Student Association</li>
+        <li>Member of the National Honor Society</li>
+        <li>Member of the Computer Science Club</li>
+        <li>Member of DECA</li>
+        <li>Sushi Squad FRC 7461 Team - Electrical, Mechanical Engineering, Programming, Business, and Strategy</li>
+    </ul>
+</section>
+
+<section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Attended 8 Model United Nations Conferences, including EDUMUN Seminar and MUN Northwest</li>
+        <li>Director of JCC Mongols at JMUN 2024</li>
+        <li>Participant in the Council of Olympus at KINGMUN</li>
+        <li>Co-President of Science Olympiad Club in JHS</li>
+        <li>Finalist in various Science Olympiad regional competitions</li>
+        <li>Key leader in team-centric activities like Science Olympiad and FRC</li>
+        <li>Working on 'AI in Everyday Life' blog series for LinkedIn</li>
+        <li>Collaborating on 'From Concept to Creation: TSA by Joanna' podcast</li>
+        <li>Chief Technology Advisor for a political campaign's 'Digital Divide' project</li>
+    </ul>
+</section>
+
+<footer id="contact">
+    <p>Connect with me on LinkedIn or reach out via email at: vihaan.email@example.com</p>
+</footer>
+
+</body>
+</html>
